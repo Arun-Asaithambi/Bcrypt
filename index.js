@@ -77,5 +77,5 @@ app.get('/topsecret',requireLogin, (req, res)=>{
 })
 
 app.listen(2000, ()=>{
-    console.log('listning on port!!')
+    console.log('listning on port 2000!!')
 })
